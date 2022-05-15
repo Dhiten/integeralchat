@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integracion</title>
+    <style>
+        nav{
+            background-color: #75C2CC;
+            height: 40px;
+        }
+        .icons{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        .icon{
+            margin: 0 10px;
+            width: 40px;
+            height: 40px;
+            background-color: aquamarine;
+            align-self: center;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            height: 480px;
+            width: 1200px;
+            padding-left: 15px;
+            padding-top: 10px;
+        }
+        .userlist{
+            width: 30%;
+            height: 100%;
+            background-color: #3F3434;
+        }
+        .userlistname{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around; 
+            width: 80%;     
+            margin-right:20px;
+            list-style: none;      
+        }
+        .username{
+            width: 90%;
+            height: 50px;
+            background-color: crimson;
+            margin-top: 10px;
+            margin-right: 30px;
+            list-style: none;  
+
+        }
+        .chatcontainer{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            height: 100%;
+        }
+        .chatbox{
+            height: 90%;
+            background-color: #CC5757;
+        }
+        .input{
+            height: 10%;
+            background-color: #C4C4C4;
+        }
+    </style>
+</head>
+<body>
+    <nav>aquí van las opciones</nav>
+    <div class="icons" >
+        <div class="icon"></div>
+        <div class="icon" ></div>
+    </div>
+    <div class="container">
+        <div class="userlist">
+            <ul class="userlistnames">
+                <li class="username"></li>
+                <li class="username"></li>
+                <li class="username"></li>
+            </ul>
+        </div>
+        <div class="chatcontainer">
+            <div class="chatbox"></div>
+            <div class="input"></div>
+        </div>
+    </div>
+</body>
+</html>
